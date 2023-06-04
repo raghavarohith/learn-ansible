@@ -1,0 +1,7 @@
+
+       name: Demo playbook
+       hosts: all
+       tasks:
+         - name: raghavarohith
+           ansible.builtin.debug:
+             msg: rohith
